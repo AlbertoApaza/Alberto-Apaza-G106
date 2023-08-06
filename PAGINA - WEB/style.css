@@ -1,0 +1,174 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(234, 233, 240);
+}
+
+
+.header {
+  background-color: #005185;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 6px 10%;
+}
+
+.header .logo img {
+  height: 75px;
+  width: auto;
+}
+
+
+.header .nav-links {
+  list-style: none;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+
+.header .nav-links a {
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  padding: 20px 30px;
+  background: orange;
+  border-radius: 50px;
+}
+
+.contenedor {
+  margin: 25px;
+  align-items: center;
+  text-align: center;
+}
+
+.contenedor img {
+  margin: 25px;
+  height: 50vh;
+  width: auto;
+}
+
+h2 {
+  color: red;
+  margin-left: 300px;
+  margin-top: 15px;
+}
+
+
+p {
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 400px;
+  text-align: justify;
+  line-height: 160%;
+}
+
+.content-text {
+  display: inline;
+  align-items: center;
+}
+
+.text-with-image {
+  flex: 1;
+}
+
+.h2_dev{
+  color: rgb(17, 0, 255);
+  margin-left: 300px;
+  margin-top: 15px;
+}
+
+.text-with-image span {
+  float: right;
+  margin-left: 10px;
+}
+
+.text-with-image img {
+  width: 200px;
+  height: auto;
+}
+
+.text-with-image p {
+  text-align: justify;
+}
+
+.boton {
+  margin-top: 20px;
+  margin-left: 300px;
+  padding: 20px;
+  background-color: rgb(199, 133, 12);
+  border-radius: 50rem;
+  border-bottom: 20vh;
+  display: block;
+}
+
+.seccion{
+  margin-top: 30vh;
+  background-color: azure;
+}
+
+.h2-yellow{
+  color: #E49E56;
+  margin-top: 25px;
+}
+
+.footer{
+  margin: 56;
+  background-color: cornsilk;
+  text-align: center;
+
+}
+.h1footer{
+  color: rgb(140, 41, 41);
+}
+
+.h2_dev_{
+  color: rgb(152, 137, 26);
+  margin-right: 300px;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+.footer {
+  background-color: #005185;
+  padding: 20px;
+}
+
+.contacto {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+}
+h3{
+  color: white;
+  margin-left: 45px;
+}
+
+.contacto i {
+  margin-right: 10px; 
+}
+
+.contacto a {
+  color: white;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+  
+  
